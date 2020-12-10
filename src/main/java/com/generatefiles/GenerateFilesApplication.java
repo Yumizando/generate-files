@@ -1,0 +1,13 @@
+package com.generatefiles;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GenerateFilesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GenerateFilesApplication.class, args);
+	}
+
+}
